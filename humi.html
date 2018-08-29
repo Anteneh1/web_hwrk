@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+	<title>humi page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<style>
+  body{
+    width: 95%;
+    height: 95%;
+    margin: 20px; /* Space from this element (entire page) and others*/
+    padding: 0px; /*space from content and border*/
+    border: solid black;
+    border-width: thin;
+    /*overflow:hidden;*/
+    display:block;
+    background-color:lightblue;
+}
+</style>
+<body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container navbar-text pull-right">
+                <right><h4><b><a href="hwrkhtml.html">Home</a></b> |
+                  <a href="data.html">Data table</a>  | 
+                  <a href="temp.html">Temperature</a> |
+                  <b>Humidity</b>  | 
+                  <a href="cloud.html">Cloudiness</a> | 
+                  <a href="wind.html">Windspeed</a>  |
+                  <a href="compare.html">Comparison</a> 
+                </h4> 
+                </right>
+        </div>
+    </nav>    
+  <h1>Comparing Humidities:</h1>
+     <p> In the polar regions, temperatures are low, dew point temperatures are also low, 
+      and relative humidity is high. The air in polar regions is usually around 80% saturated. 
+      Even though the water vapor content of the air is low, the water vapor capacity is low 
+      as well. Saturation occurs in air that holds very little water vapor even when the air is 
+      relatively dry. As a consequence, the relative humidity is higher at polar regions than at 
+      30-degree latitude, while the specific humidity is higher at 30-degree than at polar regions. Not all
+      regions of the earth around 30-degree latitude are desert.</p>
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <br><br><br>
+              <h3>Humidity chart</h3>
+              <p>Figure showing  specific humidity</p>
+              <center><img src="tabledatas/cllat.png" alt="humidity chart" width="100%" height="200%"></center>
+              
+            </div>
+            <div class="col-sm-8">
+              <h3><center>a chart showing humidity</center></h3>
+              <p><center><img src="tabledatas/humi.png" alt="humidity chart" width="100%" height="600"></center></p>
+            </div>
+          </div> 
+      </div> 
+
+                  
+
+</body>
+</html>

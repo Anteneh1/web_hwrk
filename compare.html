@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+	<title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+        body{
+           width: 95%;
+           height: 95%;
+           margin: 20px; 
+           padding: 0px; 
+           border: solid black;
+           border-width: thin;
+           display:block;
+           background-color:lightblue;
+        }
+
+        .jumbotron {
+         
+         background-color:lightgoldenrodyellow;
+        
+         border: 10px solid transparent;
+         padding: 15px;
+        }
+       
+       
+</style>
+ <body>
+        <nav class="navbar navbar-default navbar-static-top">
+                <div class="container navbar-text pull-right">
+                        <right><h4><a href="hwrkhtml.html">Home</a> |
+                            <a href="data.html">Data table</a>  | 
+                            <a href="temp.html">Temperature</a> |
+                            <a href ="humi.html"> Humidity</a> | 
+                            <a href="cloud.html">Cloudiness</a> | 
+                            <a href="wind.html">Windspeed</a>  |
+                            <b>Comparison</b>
+                        </h4> 
+                        </right>
+                </div>
+        </nav>        
+        <div class="container">
+                <h3 class="text-center">Chart to compare- temperature and Humidity</h3>
+                <div class="row">
+                  <div class="col-md-6 col-xs-12">
+                    <div class="thumbnail">
+                     <img src="tabledatas/temp.png" alt="temperature_chart"> 
+                     <p><b>Fig</b> showing temperature Vs Latitude</p>
+                    </div>
+                  </div>  
+                  <div class="col-md-6 col-xs-12"> 
+                        <div class="thumbnail"> 
+                         <img src="tabledatas/humi.png" alt="humidity_chart">
+                         <p><b>Fig</b> showing humidity Vs Latitude</p>
+                        </div> 
+                  </div>
+                  
+                </div>
+        </div>
+        <div class="container">
+                <h3 class="text-center">Another chart to compare and see between  wind-speed  and cloudiness</h3>
+                <div class="row">
+                  <div class="col-md-6 col-xs-12">
+                    <div class="thumbnail">
+                     <img src="tabledatas/win.png" alt="wind_chart"> 
+                     <p><b>Fig</b> showing windspeed Vs Latitude</p>
+
+                    </div>
+                  </div>  
+                  <div class="col-md-6 col-xs-12"> 
+                        <div class="thumbnail"> 
+                         <img src="tabledatas/clou.png" alt="humidity_chart">
+                         <p><b>Fig</b> Showing cloud coverage Vs Latitude</p>
+
+                        </div> 
+                  </div>
+                  
+                </div>
+        </div>
+
+
+
+
+
+
+
+
+ </body>
+ </html>
